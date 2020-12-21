@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 07 Dec 2020 18:21:53 +0100
+Source: numpy
+Binary: python-numpy-doc python3-numpy python3-numpy-dbg
+Architecture: all amd64
+Version: 1:1.19.4-1ubuntu2
+Distribution: hirsute
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Griggorii <griggorii@gmail.com>
+Description:
+ python-numpy-doc - NumPy documentation
+ python3-numpy - Fast array facility to the Python 3 language
+ python3-numpy-dbg - Fast array facility to the Python 3 language (debug extension)
+Changes:
+ numpy (1:1.19.4-1ubuntu2) hirsute; urgency=medium
+ .
+   * Rebuild not offering corporations my github python 3.8.5 modifications.
+Checksums-Sha1:
+ ac4c1aeb7ddf5d6e6437f4a763663116b2a48c12 13008 numpy_1.19.4-1ubuntu2_amd64.buildinfo
+ 4346a431e692588bbdb96fc44015ff51c4ae4f68 9081592 python-numpy-doc_1.19.4-1ubuntu2_all.deb
+ a8201814fb640de6896bd978bc3fcbc42c4fd048 24966924 python3-numpy-dbg_1.19.4-1ubuntu2_amd64.deb
+ a100e970225b06cbe5c22e587f33d17d0cea1f3c 2692196 python3-numpy_1.19.4-1ubuntu2_amd64.deb
+Checksums-Sha256:
+ 6d4ba42837f5211b6fd851dabbdc296acde459b84c91bf30d427a1e998fbdde6 13008 numpy_1.19.4-1ubuntu2_amd64.buildinfo
+ 15beadb14d29f894c66ccbaabe39e664ee434e29d859385093c0e31d6c2a3a73 9081592 python-numpy-doc_1.19.4-1ubuntu2_all.deb
+ c833547dcb034f3fd72e0d09900f6dbef0ea4d5aac5ba660f0bdfdc270d8a270 24966924 python3-numpy-dbg_1.19.4-1ubuntu2_amd64.deb
+ 788e12e95903a77041bd4055fda32881eedeb99cc518825572262559fd445f41 2692196 python3-numpy_1.19.4-1ubuntu2_amd64.deb
+Files:
+ a1dc6ba5bcb62e02a379136b61ba1d8b 13008 python optional numpy_1.19.4-1ubuntu2_amd64.buildinfo
+ 21138716dd19ebe9ed1c84e2b593b1a2 9081592 doc optional python-numpy-doc_1.19.4-1ubuntu2_all.deb
+ 4a623130b5b15c00b6c025b6c353c7f3 24966924 debug optional python3-numpy-dbg_1.19.4-1ubuntu2_amd64.deb
+ 4f8e5bda8cbaace1b4686e98bebca996 2692196 python optional python3-numpy_1.19.4-1ubuntu2_amd64.deb
+Original-Maintainer: Sandro Tosi <morph@debian.org>
